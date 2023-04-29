@@ -33,27 +33,31 @@ def convert_arw_to_jpg():
 # Create the GUI window
 root = tk.Tk()
 root.title("ARW to JPG Converter")
+root.geometry("500x300")
 
 # Create the input directory label and entry
-input_label = tk.Label(root, text="Input directory:")
+input_label = tk.Label(root, text="Input directory:", font=("Arial", 14))
 input_label.pack(side=tk.TOP)
-input_entry = tk.Entry(root)
+input_entry = tk.Entry(root, font=("Arial", 14))
 input_entry.pack(side=tk.TOP)
-input_button = tk.Button(root, text="Browse...", command=browse_input_dir)
+input_button = tk.Button(root, text="Browse...", font=("Arial", 14), command=browse_input_dir)
 input_button.pack(side=tk.TOP)
 
 # Create the output directory label and entry
-output_label = tk.Label(root, text="Output directory:")
+output_label = tk.Label(root, text="Output directory:", font=("Arial", 14))
 output_label.pack(side=tk.TOP)
-output_entry = tk.Entry(root)
+output_entry = tk.Entry(root, font=("Arial", 14))
 output_entry.pack(side=tk.TOP)
-output_button = tk.Button(root, text="Browse...", command=browse_output_dir)
+output_button = tk.Button(root, text="Browse...", font=("Arial", 14), command=browse_output_dir)
 output_button.pack(side=tk.TOP)
 
 # Create the convert button
-convert_button = tk.Button(root, text="Convert", command=convert_arw_to_jpg)
+convert_button = tk.Button(root, text="Convert", font=("Arial", 14), command=convert_arw_to_jpg)
 convert_button.pack(side=tk.TOP)
+
+# Create the signature/credits label
+signature_label = tk.Label(root, text="Created by: @joosefupas", font=("Courier", 16))
+signature_label.pack(side=tk.BOTTOM, pady=20)
 
 # Run the GUI
 root.mainloop()
-
