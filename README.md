@@ -12,8 +12,8 @@ This is a simple GUI application built with Python's tkinter library to convert 
 - Clone this repository or download the arw-to-jpg-converter.py file.
 - Install the required Python packages by running pip install tkinter.
 - Download the Convert-ARWtoJPG.ps1 PowerShell script and save it in the same directory as arw-to-jpg-converter.py.
-- Install ImageMagick by downloading it from here and adding the installation directory to your system path.
-- Run the application by executing the arw-to-jpg-converter.py file.
+- Install ImageMagick by downloading it from here[https://imagemagick.org/] and adding the installation directory to your system path.
+- Run the application by executing the arw-to-jpg-converter.py file in your terminal.
 
 ## How to Use
 - Click the "Browse..." button next to "Input directory" to select the folder containing your ARW image files.
