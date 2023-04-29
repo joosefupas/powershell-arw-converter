@@ -13,4 +13,4 @@ Run the script with the following command: .\Convert-ARWtoJPG.ps1
 The script will list all ARW files in the input directory and convert them to JPG format with quality 100. The converted files will be saved in the output directory with the same base name as the original files.
 
 ## License
-This code is licensed under the MIT License. See the LICENSE file for details.
+This code is licensed under the MIT License.
